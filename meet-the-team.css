@@ -1,0 +1,18 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 20rem;
+}
+
+.bio-image-wrapper {
+  display: block;
+  
+  position: relative;
+
+  cursor: pointer;
+
+  gap: 1vw;
+}
