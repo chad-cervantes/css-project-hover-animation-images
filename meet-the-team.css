@@ -7,6 +7,11 @@ body {
   margin-bottom: 20rem;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, (minmax(42vh, 1fr)));
+}
+
 .bio-image-wrapper {
   display: block;
   
@@ -15,4 +20,16 @@ body {
   cursor: pointer;
 
   gap: 1vw;
+}
+
+.bio-image-wrapper > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+
+  margin: auto;
+  text-align: center;
+
+  object-fit: cover;
+  object-position: center;
 }
