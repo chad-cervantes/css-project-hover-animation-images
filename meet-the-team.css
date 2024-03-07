@@ -7,6 +7,12 @@ body {
   margin-bottom: 20rem;
 }
 
+h1 {
+  font-size: 5vh;
+  font-weight: bolder;
+  text-align: center;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(42vh, 1fr));
