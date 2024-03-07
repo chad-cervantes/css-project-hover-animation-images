@@ -33,3 +33,17 @@ body {
   object-fit: cover;
   object-position: center;
 }
+
+.bio-image-wrapper > .description {
+  position: absolute;
+
+  inset: 0;
+
+  font-size: 2rem;
+
+  background-color: rgba(255,255,255,.4);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
