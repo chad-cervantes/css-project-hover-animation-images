@@ -19,9 +19,9 @@ h1 {
 }
 
 .bio-image-wrapper {
-  display: block;
-  
   position: relative;
+
+  overflow: hidden;
 
   cursor: pointer;
 
@@ -70,5 +70,10 @@ h1 {
 
 .bio-image-wrapper:hover > .description.fade {
   opacity: 1;
+}
+
+/* Zoom Animation */
+.bio-image-wrapper:hover > img.zoom {
+  transform: scale(1.1);
 }
 
