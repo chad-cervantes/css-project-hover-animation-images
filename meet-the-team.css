@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 3vw;
   margin-bottom: 20rem;
 }
 
@@ -16,6 +16,8 @@ h1 {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(42vh, 1fr));
+  
+  gap: 1.5vw;
 }
 
 .bio-image-wrapper {
@@ -24,17 +26,12 @@ h1 {
   overflow: hidden;
 
   cursor: pointer;
-
-  gap: 1vw;
 }
 
 .bio-image-wrapper > img {
   display: block;
   width: 100%;
   aspect-ratio: 1/1;
-
-  margin: auto;
-  text-align: center;
 
   object-fit: cover;
   object-position: center;
@@ -47,7 +44,10 @@ h1 {
 
   font-size: 2rem;
 
-  background-color: rgba(255,255,255,.4);
+  background-color: rgba(255,255,255,.4); 
+  
+  margin: auto;
+  text-align: center;
 
   display: flex;
   justify-content: center;
